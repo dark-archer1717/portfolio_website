@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Airbnb-Clone',
-    description: "This project is full-stack: frontend and backend, with server-side rendering and routing. It has a huge set of features: browsing houses, logging in, booking a house, having the logic to determine if dates are already booked, paying the stay using Stripe, and then becoming hosts, adding our own houses with all the details, and selling them!",
+    description: "This project is full-stack, with server-side rendering and routing. It has a huge set of features: browsing houses, logging in, booking a house, having the logic to determine if dates are already booked, paying the stay using Stripe, and then becoming hosts, adding our own houses with all the details, and selling them!",
     image: '/images/1.jpg',
     tags: ['NextJS', 'React', 'PostgreSQL', 'Stripe'],
-    source: 'https://github.com/dark-archer1717/next-airbnb',
-    visit: 'https://github.com/dark-archer1717/next-airbnb',
+    source: 'https://github.com/dark-archer1717/nextbnb',
+    visit: 'https://github.com/dark-archer1717/nextbnb',
     id: 0,
   },
   {
@@ -13,8 +13,7 @@ export const projects = [
     description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: '',
     id: 1,
   },
   {

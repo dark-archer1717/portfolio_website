@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        Passionate fullstack developer with a deep interest in Javascript(ES6+) ,React.js and NodeJs. I'm always curious about learning new technologies. I am capable of building all sorts of enterprise-level web applications.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

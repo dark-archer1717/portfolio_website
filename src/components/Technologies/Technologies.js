@@ -3,7 +3,7 @@ import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
@@ -19,8 +19,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experieced with <br />
+            React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,8 +31,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Experienced with <br />
+            Node.js, Express.js,GraphQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +41,10 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experienced with <br />
+            MongoDB, PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
