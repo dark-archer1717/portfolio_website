@@ -11,8 +11,8 @@ const Hero = (props) => (
         <SectionTitle main center>
           Hi,
           I’m
-          Efazul Fayad
-          |
+          Kazi Efazul Karim 
+          || 
           Fullstack Developer <br />
         </SectionTitle>
         <SectionText>
