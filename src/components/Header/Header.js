@@ -1,16 +1,19 @@
+'use strict';
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { useRouter } from 'next/router';
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <DiCssdeck size="3rem" /> <span>Home</span>
+          <DiCssdeck size="3rem" />
+          <span>Home</span>
         </a>
       </Link>
     </Div1>
@@ -35,7 +38,7 @@ const Header = () => (
       <SocialIcons href="https://github.com/dark-archer1717">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/efazul-fayad-046964202/">
+      <SocialIcons href="https://www.linkedin.com/in/kazi-efazul-karim-046964202/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/efazul_fayad/">
